@@ -13,7 +13,7 @@
     --gold: #b8902c;
     --gold-light: #d4af5a;
     --gold-pale: #f0e4c2;
-    --forest: #1b3d2f;
+    --forest: #122b20;
     --burgundy: #4a0f1a;
     --burgundy-dark: #3d0d15;
     --cream: #faf6ef;
@@ -87,8 +87,7 @@
   /* ── HERO ── */
   .hero {
     min-height: 100vh;
-    background-color: var(--burgundy);
-    background-image: radial-gradient(ellipse at 70% 20%, rgba(184,144,44,0.10) 0%, transparent 55%);
+    background-color: #280912;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -248,12 +247,12 @@
   footer { background:#1a0f05; overflow:hidden; }
   .footer-pattern { width:100%; height:80px; background-repeat:repeat; background-size:90px 90px; opacity:0.55; }
   .footer-main { padding:50px 40px 40px; text-align:center; }
-  .footer-logo { width:90px; margin:0 auto 24px; display:block; mix-blend-mode:lighten; }
-  .footer-name { font-size:13px; letter-spacing:5px; text-transform:uppercase; color:rgba(250,246,239,0.4); margin-bottom:20px; font-family:'Cormorant Garamond',serif; }
+  .footer-logo { width:90px; margin:0 auto 24px; display:block; mix-blend-mode:screen; }
+  .footer-name { font-size:13px; letter-spacing:5px; text-transform:uppercase; color:rgba(250,246,239,0.6); margin-bottom:20px; font-family:'Cormorant Garamond',serif; }
   .footer-links { display:flex; justify-content:center; gap:32px; margin-bottom:24px; }
-  .footer-links a { font-size:10px; letter-spacing:3px; text-transform:uppercase; color:rgba(250,246,239,0.3); text-decoration:none; transition:color 0.2s; }
+  .footer-links a { font-size:10px; letter-spacing:3px; text-transform:uppercase; color:rgba(250,246,239,0.5); text-decoration:none; transition:color 0.2s; }
   .footer-links a:hover { color:var(--gold-light); }
-  .footer-copy { font-size:10px; color:rgba(250,246,239,0.2); letter-spacing:1px; }
+  .footer-copy { font-size:10px; color:rgba(250,246,239,0.35); letter-spacing:1px; }
 
   /* ── RESPONSIVE ── */
   @media(max-width:700px){
@@ -441,7 +440,7 @@
 <section class="start-section" id="start">
   <div class="start-inner">
     <span class="section-label" style="color:var(--gold-light);">Як почати</span>
-    <h2 class="section-title" style="color:var(--cream);">Два варіанти входу</h2>
+    <h2 class="section-title" style="color:var(--cream);">Два етапи входу</h2>
     <div class="start-options">
       <div class="start-option">
         <div class="start-num">01</div>
@@ -454,7 +453,7 @@
         <h3>Перше заняття</h3>
         <p>Повноцінний урок з будь-якого пакету, після якого ви зрозумієте, як я пояснюю, як ви сприймаєте мистецтво і який формат вам підходить.</p>
         <p class="start-note">Якщо продовжуєте — зараховується в пакет.</p>
-        <div class="price-badge">2 000&nbsp;грн</div>
+        <div class="price-badge">40&nbsp;€</div>
       </div>
     </div>
   </div>
@@ -473,7 +472,7 @@
           <h3>База: Навчитися бачити</h3>
           <span>4 зустрічі · Для початківців</span>
         </div>
-        <div class="package-price"><strong>7 200&nbsp;грн</strong></div>
+        <div class="package-price"><strong>150&nbsp;€</strong></div>
       </div>
       <div class="package-body">
         <p class="package-desc">Для тих, хто хоче зрозуміти, як дивитися на мистецтво і що з ним робити.</p>
@@ -491,10 +490,10 @@
       <div class="package-header">
         <div class="package-icon">🔑</div>
         <div class="package-header-text">
-          <h3>Ключі до мистецтва</h3>
+          <h3>Ключ до мистецтва</h3>
           <span>12 або 16 зустрічей · Повний курс</span>
         </div>
-        <div class="package-price"><strong>від 24 000&nbsp;грн</strong></div>
+        <div class="package-price"><strong>від 480&nbsp;€</strong></div>
       </div>
       <div class="package-body">
         <p class="package-desc">Ми проходимо історію мистецтва як систему, яку ви починаєте розуміти — від ідей до символів, від архетипів до сучасності.</p>
@@ -502,12 +501,12 @@
           <div class="variant">
             <h4>12 зустрічей</h4>
             <p>Структурована історія мистецтва. Ключові епохи і напрямки. Формування базового розуміння системи.</p>
-            <div class="variant-price">24 000&nbsp;грн</div>
+            <div class="variant-price">480&nbsp;€</div>
           </div>
           <div class="variant">
             <h4>16 зустрічей</h4>
             <p>Глибше занурення в епохи. Більше практики і розборів. Додаткові теми: архетипи, тіло, сучасне мистецтво. Адаптація під ваші інтереси.</p>
-            <div class="variant-price">30 000&nbsp;грн</div>
+            <div class="variant-price">600&nbsp;€</div>
           </div>
         </div>
       </div>
@@ -520,7 +519,7 @@
           <h3>Мистецтво для креативних</h3>
           <span>8–10 зустрічей · Для візуальних профі</span>
         </div>
-        <div class="package-price"><strong>від 16 000&nbsp;грн</strong></div>
+        <div class="package-price"><strong>від 320&nbsp;€</strong></div>
       </div>
       <div class="package-body">
         <p class="package-desc">Для дизайнерів, стилістів, фотографів, ілюстраторів і SMM-фахівців — тих, хто працює з візуалом і хоче черпати з першоджерел.</p>
@@ -535,12 +534,12 @@
           <div class="variant">
             <h4>8 зустрічей</h4>
             <p>Базовий інтенсив. Ключові епохи + практика.</p>
-            <div class="variant-price">16 000&nbsp;грн</div>
+            <div class="variant-price">320&nbsp;€</div>
           </div>
           <div class="variant">
             <h4>10 зустрічей</h4>
             <p>Розширений формат з більшою кількістю практичних завдань.</p>
-            <div class="variant-price">19 000&nbsp;грн</div>
+            <div class="variant-price">380&nbsp;€</div>
           </div>
         </div>
       </div>
@@ -553,7 +552,7 @@
           <h3>Індивідуальний формат</h3>
           <span>Під конкретний запит</span>
         </div>
-        <div class="package-price"><strong>від 2 000&nbsp;грн</strong><small>/ заняття</small></div>
+        <div class="package-price"><strong>від 50&nbsp;€</strong><small>/ заняття</small></div>
       </div>
       <div class="package-body">
         <p class="package-desc">Є конкретний запит — збираємо програму під вас. Фокус на окремій епосі, сучасне мистецтво, робота під конкретну задачу або проєкт.</p>
@@ -585,8 +584,8 @@
         <p>Не пізніше, ніж за 24 години до заняття</p>
       </div>
       <div class="logistics-item">
-        <h4>Місця</h4>
-        <p>Кількість місць обмежена — я працюю тільки з невеликою кількістю студентів одночасно</p>
+        <h4>Формат</h4>
+        <p>Ми працюємо пакетами, бо це мінімум, який потрібен, щоб змінити спосіб бачення та повноцінно зануритись в мистецтво. Моя ціль — дати вам результат раз і назавжди.</p>
       </div>
       <div class="logistics-item" style="border-right:none;">
         <h4>Програма</h4>
